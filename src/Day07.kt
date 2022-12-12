@@ -187,6 +187,6 @@ fun main() {
 
     val fileSystem = buildFileSystem(readInputLines("day07_dataset"))
 
-    println("Result #1 = ${part1(fileSystem)}")
-    println("Result #2 = ${part2(fileSystem)}")
+    part1(fileSystem).println()
+    part2(fileSystem).println()
 }
